@@ -55,6 +55,6 @@ jobs:
 
     - name: Test Model
       env:
-        MyVAR: vars.MyVAR
+        MY_VAR: vars.MY_VAR
       run: |
         python test.py
