@@ -55,6 +55,6 @@ jobs:
 
     - name: Test Model
       env:
-        SEUIL: vars.SEUIL
+        MyVAR: vars.MyVAR
       run: |
         python test.py
